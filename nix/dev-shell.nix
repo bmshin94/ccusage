@@ -27,7 +27,7 @@ in
         buildInputs =
           (with pkgs; [
             nodejs
-            pnpm
+            pnpm_12
             bun
             inputs.bun2nix.packages.${system}.default
             nushell
